@@ -7,7 +7,7 @@ export class InformacionService {
   info:any = {};
   cargada:boolean = false;
   cargada_sobre_nosotros:boolean = false;
-  equipo:any = {};
+  equipo:any[] = [];
 
   constructor( public http:Http ) {
     this.carga_info();
@@ -17,6 +17,7 @@ export class InformacionService {
   public carga_info(){
     this.http.get("assets/data/info.pagina.json")
     .subscribe( data =>{
+      //console.log(data.json().equipo_trabajo);
       this.cargada = true;
       this.info = data.json();
     })
@@ -25,7 +26,7 @@ export class InformacionService {
   public carga_sobre_nosotros(){
     this.http.get("https://paginaweb-b47f4.firebaseio.com/equipo.json")
     .subscribe( data =>{
-      console.log(data);
+      console.log(data.json());
       this.cargada_sobre_nosotros = true;
       this.equipo = data.json();
     })
