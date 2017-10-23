@@ -1,0 +1,31 @@
+
+{
+  "titulo" : "ICB Angular",
+  "email" : "tecnicoweb@icbeditores.com",
+  "nombrecorto" : "Javier",
+  "pagina_autor" : "http://www.icbeditores.com",
+  "facebook" : "mifacebook",
+  "twitter" : "mitwitter",
+  "instagram" : "miinstagram",
+  "equipo_trabajo" : [
+    {"frase":"Una frase cualquiera",
+      "nombre":"Javier Velasco",
+      "subtitulo":"Instructor",
+      "twitter":"mitwitter",
+      "url":"https://firebasestorage.googleapis.com/v0/b/paginaweb-b47f4.appspot.com/o/team-1.jpg?alt=media&token=18f4c4f0-a870-4be4-b3ed-1e052b510183"
+    },
+      {"frase":"La frase del segundo",
+        "nombre":"Laura Pérez",
+        "subtitulo":"Subordinada",
+        "twitter":"ladylaura",
+        "url":"https://firebasestorage.googleapis.com/v0/b/paginaweb-b47f4.appspot.com/o/team-2.jpg?alt=media&token=02d610f2-38ab-4a78-92a1-e78bb072d7e3"
+      },
+      {"frase":"La frase de Sebastián",
+        "nombre":"Sebastián Gutiérrez",
+        "subtitulo":"Antipedagógico",
+        "twitter":"notengotwitter",
+        "url":"https://firebasestorage.googleapis.com/v0/b/paginaweb-b47f4.appspot.com/o/team-3.jpg?alt=media&token=587878f0-1c12-44f1-bc14-65ba80ccb634"
+      }
+      ]
+
+}
